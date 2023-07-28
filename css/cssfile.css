@@ -82,3 +82,33 @@ li a{
 li a:hover{
     background-color: #410DA8;
 }
+
+ol{
+    list-style: none;
+    counter-reset: counter;
+}
+
+ol li{
+    counter-increment: counter;
+}
+
+ol li::before{
+    content: 'Option ' counter(counter) ' - ';
+    color: #B9A5FA;
+}
+
+ol li::after{
+    content: '.';
+}
+
+h3{
+    color: #320054;
+}
+
+dl dt{
+    color: #24002E;
+}
+
+dl dd{
+    color: #410DA8;
+}
