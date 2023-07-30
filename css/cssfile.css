@@ -1,20 +1,71 @@
-h1 {
-  color: #410DA8;
+*{
+    margin: 0;
+    padding: 0;
 }
 
-p {
-  color: brown;
-  background-color: aquamarine;
+/*css identifier*/
+#principal_id {
+  color: #4E3636;
+}
+h4
+{
+    color: #4E3636;
+    background-color: rgba(149, 235, 206, 0.349);
+    align-items: center;
+    padding: 15px;
+    border: 5px solid #4E3636;
+    margin: 50px;
+
+}
+span{
+    color: #CD1818;
+}
+
+div {
+  color: #4E3636;
+  background-color: rgba(149, 235, 206, 0.349);
   padding: 15px;
-  border: 10px solid powderblue;
+  border: 5px solid #4E3636;
   margin: 50px;
 }
+
+/*css class*/
+.inverter {
+    color: #75c2c4;
+    background-color: #4E3636;
+    padding: 15px;
+    border: 5px solid rgba(149, 235, 206, 0.349);
+    margin: 50px;
+  }
+
+.iFrameText{
+    color: #4E3636;
+    background-color: rgba(149, 235, 206, 0.349);
+    padding: 15px;
+    border: 5px solid #4E3636;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 1px;
+    width: 837px;
+}
+
+.iFrameAdd{
+    color: #4E3636;
+    background-color: rgba(149, 235, 206, 0.096);
+    padding: 1px;
+    border: 2px solid #4E3636;
+    margin-left: 50px;
+    margin-top: 1px;
+    margin-right: 2px;
+    height: 1000px;
+    width: 870px;
+}
 a:link {
-  color: coral;
+  color: #CD1818;
 }
 
 a:visited {
-color: blueviolet;
+color: #116D6E;
 text-decoration: none;
 }
 
@@ -102,13 +153,15 @@ ol li::after{
 }
 
 h3{
-    color: #320054;
+    color: #CD1818;
 }
 
 dl dt{
-    color: #24002E;
+    color: #321E1E;
+    margin: 5px;
 }
 
 dl dd{
-    color: #410DA8;
+    color: #4E3636;
+    margin-left: 72px;
 }
