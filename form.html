@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="">
+      <fieldset>
+        <legend>Person data</legend>
+
+
+        <label for="idPerson">Person ID:</label> <br />
+        <input
+          type="number"
+          id="idPerson"
+          name="idPerson"
+          placeholder="6"
+          disabled
+        />
+        <br>
+
+        <label for="name">Name:</label> <br />
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Please type name"
+        />
+        <br />
+
+        <label for="lastname">Lastname:</label> <br />
+        <input
+          type="text"
+          id="lastname"
+          name="lastname"
+          placeholder="Please type lastname"
+        />
+        <br />
+
+        <label for="mail">Mail</label> <br />
+        <input
+          type="email"
+          id="mail"
+          name="mail"
+          placeholder="Please type email"
+        />
+        <br />
+
+        <label for="age">Age</label> <br />
+        <input
+          type="number"
+          id="age"
+          name="age"
+          placeholder="Please type age"
+        />
+        <br />
+
+        <div>
+          <label>Gender:</label> <br />
+
+          <input type="radio" id="female" name="gender" value="female" />
+          <label for="">Female</label>
+
+          <input type="radio" id="male" name="gender" value="male" />
+          <label>Male</label>
+        </div>
+
+        <div>
+          <label for="">Favorite music genre:</label> <br />
+
+          <input type="checkbox" />
+          <label for="">Classic</label>
+
+          <input type="checkbox" />
+          <label for="">Jazz</label>
+        </div>
+
+        <div>
+          <label for="carsBrand">Favorite auto brand</label>
+
+          <select name="carsBrand" id="carsBrand">
+            <option value="Audi">Audi</option>
+            <option value="Mazda">Mazda</option>
+            <option value="Mercedez">Mercedez</option>
+            <option value="BMW" selected="true">BMW</option>
+          </select>
+        </div>
+
+        <div>
+          <label for="comment">Comment</label>
+          <textarea name="comment" id="comment" cols="30" rows="2"></textarea>
+        </div>
+
+        <div>
+          <input type="submit" value="Send" name="" id="" />
+          <input type="submit" value="Send without validating" name="" id="" />
+          <input type="reset" name="" id="" />
+        </div>
+      </fieldset>
+    </form>
+  </body>
+</html>
